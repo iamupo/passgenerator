@@ -8,7 +8,6 @@ A simple pass generator app built with React and Vite.
 
 Check out the live demo [here](https://passgenerator-rust.vercel.app/).
 
-
 ## Overview
 
 This is a simple app for generating passcodes. The app is built with React and Vite, providing a fast and efficient user experience.
@@ -22,5 +21,6 @@ This is a simple app for generating passcodes. The app is built with React and V
 ## Installation
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/upovibe/passgenerator.git
