@@ -29,10 +29,14 @@ function App() {
       navigator.clipboard.writeText(password);
       passwordRef.current.select();
       document.execCommand("copy");
-      toast.success("Password copied successfully!");
+      toast.success("Password copied successfully!");  // Toast notification on success
     },
     [password]
   );
+
+  const openGithubRepo = () => {
+    window.open("https://github.com/upovibe/passgenerator", "_blank");
+  };
 
   useEffect(() => {
     generatePassword();
@@ -119,6 +123,14 @@ function App() {
               </div>
             </div>
           </form>
+
+          {/* GitHub Button */}
+          <button
+            onClick={openGithubRepo}
+            className="bg-green-600 font-semibold lowercase px-6 py-3 rounded-lg text-center text-white w-auto mt-4"
+          >
+            View on GitHub
+          </button>
         </div>
       </main>
 
