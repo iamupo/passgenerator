@@ -32,14 +32,11 @@ This is a simple app for generating passcodes. The app is built with React and V
    cd passgenerator
    ```
 
-3. Install dependencies:
+3. Install dependencies and run locally:
 
 ```bash
 npm install
 ```
-
-4.  Runthe app locally:
-
 ```bash
 npm run dev
 ```
