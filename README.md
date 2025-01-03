@@ -1,8 +1,26 @@
-# React + Vite
+# React + Vite Pass Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple pass generator app built with React and Vite.
 
-Currently, two official plugins are available:
+![Tonkeeper Battery Screenshot](src/assets/screenshots/screenshot.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Live Demo
+
+Check out the live demo [here](https://passgenerator-rust.vercel.app/).
+
+
+## Overview
+
+This is a simple app for generating passcodes. The app is built with React and Vite, providing a fast and efficient user experience.
+
+## Features
+
+- Generate secure passcodes
+- Copy passcodes with one click
+- Simple and user-friendly interface
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/upovibe/passgenerator.git
