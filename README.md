@@ -36,7 +36,7 @@ This is a simple app for generating passcodes. The app is built with React and V
 
 ```bash
 npm install
-
+```
 
 ```bash
 npm run dev
